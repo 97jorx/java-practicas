@@ -1,0 +1,77 @@
+file.encoding
+UTF-8
+Codigicacion de fichero
+
+file.separator
+\
+Separador de ficheros
+
+java.home
+C:\Program Files\Java\jdk-10.0.2
+Directorio de java
+
+java.library.path
+C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Jorge Cadena\AppData\Local\Microsoft\WindowsApps;;.
+Ruta de libreria java
+
+java.runtime.version
+10.0.2+13
+Version runtime  java
+
+java.specification.version
+10
+Version de especificacion java
+
+java.vendor
+Oracle Corporation
+Vendedor de java
+
+java.version
+10.0.2
+Version de java
+
+java.vm.specification.vendor
+Oracle Corporation
+Especificacion de java
+
+java.vm.specification.version
+10
+Maquina virtual de java
+
+line.separator
+
+
+Linea de separacion
+
+os.name
+Windows 10
+Nombre sistema operativo
+
+os.version
+10.0
+Version sitema operativo
+
+path.separator
+;
+Separacion en una ruta
+
+user.country
+ES
+Ciudad del usuario
+
+user.dir
+G:\Mi unidad\PRO-CADENA\TAREAS\T206-PROPIEDADESDELSISTEMA
+Directorio del usuario
+
+user.home
+C:\Users\Jorge Cadena
+Directorio incial del usuario
+
+user.language
+es
+Lenguaje del usuario
+
+user.name
+Jorge Cadena
+Nombre de usuario java
+

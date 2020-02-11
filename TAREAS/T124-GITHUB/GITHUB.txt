@@ -1,0 +1,6 @@
+https://github.com/TheAlgorithms/Java/blob/master/Sorts/QuickSort.java
+https://github.com/TheAlgorithms/Java/blob/master/Sorts/BubbleSort.java
+https://github.com/TheAlgorithms/Java/blob/master/Sorts/InsertionSort.java
+https://github.com/TheAlgorithms/Java/blob/master/Sorts/SelectionSort.java
+https://github.com/sahyoni/java-reverse-array/blob/master/src/com/company/Main.java
+https://github.com/victorcuervo/lineadecodigo_java/blob/master/src/com/lineadecodigo/java/basico/ForEach.java

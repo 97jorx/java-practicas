@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Formulario">
+  <grid id="27dc6" binding="panelBase" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="127" y="112" width="294" height="128"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="81b3a" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="35"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e363c" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="27"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3de39" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="49" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="USUARIO"/>
+        </properties>
+      </component>
+      <component id="d4dcd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="77" height="27"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="CONTRASEÑA"/>
+        </properties>
+      </component>
+      <component id="18586" class="javax.swing.JButton" binding="entrarButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ENTRAR"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

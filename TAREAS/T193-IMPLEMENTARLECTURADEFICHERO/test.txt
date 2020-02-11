@@ -1,0 +1,6 @@
+When an exception class is instantiated, a stack trace is created and associated with the exception object.
+A stack trace is nothing more than information that describes the path of execution of a thread at some point
+in time, including the name of each method that was called, the class in which each method is defined, and
+in most cases the line number within the class. It’s the stack trace information that’s displayed when you
+execute an application that terminates with an exception. For example, suppose you create a class like the
+following one that attempts to read the contents of a file:

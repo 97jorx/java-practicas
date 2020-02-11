@@ -1,0 +1,45 @@
+Package javax.swing
+https://docs.oracle.com/javase/10/docs/api/javax/swing/package-summary.html
+CLASES
+-------
+AbstractButton
+JButton
+JComponent
+JDialog
+-------
+
+INTERFACES
+---------
+Action
+Scrollable
+
+
+METODOS
+-------
+setBackground(color bg) --> JComponent
+setMaximunSize(Dimension maximunSize) --> JComponent
+setVisible(boolean aFlag) --> JComponent
+addActionListener(ActionListener l) --> AbstractButton
+setLayout(LayoutManager mgr) --> AbstractButton
+setLabel(String label) --> AbstractButton
+setForeground(Color fg) --> JComponent
+
+
+
+Package javax.swing.event
+https://docs.oracle.com/javase/10/docs/api/javax/swing/event/package-summary.html
+CLASES
+-------
+MenuEvent
+MouseInputAdapter
+
+
+
+INTERFACES
+---------
+MenuListener
+MouseInputListener
+
+METODOS
+-------
+

@@ -1,0 +1,105 @@
+Ejer. 5.13.
+
+Modifica el m�todo buscarLineal() para que devuelva la posici�n donde se ha
+encontrado el elemento o �1 si no est�.
+
+
+Ejer. 5.14.
+
+ Define una clase Palabra que modela una palabra de un diccionario ingl�s-castellano. De
+cada palabra se guarda su expresi�n en castellano y en ingl�s. Incluye el constructor con
+par�metros y m�todos accesores, getCastellano() y getIngles(), adem�s del m�todo
+toString() que devuelve un String de la forma �palabra castellano � palabra ingl�s�
+
+Define una clase Diccionario con un atributo palabras que es un array del tipo Palabra. La
+clase incluye tambi�n una constante de clase, MAXPALABRAS que indica el n� m�ximo de
+palabras que almacenar� el diccionario. A�ade un atributo adicional pos que indicar� la
+siguiente posici�n en la que se a�adir� una nueva palabra al diccionario.
+
+A�ade a la clase el constructor con un par�metro numPalabras que indica el n� de palabras
+que tendr� el Diccionario (controlar mediante una aserci�n que numPalabras<=
+MAXPALABRAS).
+
+ Añade un metodo agregar(�) que toma una palabra como argumento y la a�ade al
+diccionario. Solo se puede insertar si hay sitio en la lista (esto nos lo puede indicar pos) y si
+la palabra no est� repetida
+
+Añade un metodo eliminar(�) que toma una palabra como argumento y la elimina del
+diccionario. Se debe reorganizar el diccionario para evitar huecos desplazando las palabras
+hacia el principio.
+
+Incluye un nuevo metodo, palabra(�) , que devuelve la palabra de una determinada
+posicion que se pasa como parametro al m�todo (si la posici�n no es correcta devuelve
+null).
+
+Se debe permitir ordenar() el diccionario (ascendente). Usar alguno de los algoritmos de
+ordenaci�n vistos.
+
+A�ade el m�todo toString() que muestra en pantalla cada una de las palabras separadas
+por coma (utilizaremos toString() de Palabra)
+
+Crea una clase InterfazDiccionario que permita a un usuario interactuar con un diccionario
+mostr�ndole las diferentes opciones de que dispone: a�adir una nueva palabra, eliminar
+una palabra, mostrar el diccionario, ordenar el diccionario, obtener la traducci�n de una
+palabra de una determinada posici�n, �
+
+Dibuja el diagrama de clases UML de este ejercicio
+
+
+Ejer. 5.15.
+
+Implementa el siguiente m�todo que devuelve la matriz identidad
+La matriz identidad tiene la diagonal principal a 1 y el resto de los elementos a 0.
+public int[][] matrizIdentidad()
+
+
+Ejer. 5.16.
+
+La clase Curso contiene estudiantes y sus notas obtenidas en una serie de
+asignaturas.
+
+public class Curso
+{
+	private static final int MAXESTUDIANTES = 5;
+	private static final int MAXASIGNATURAS = 3;// Array de estudiantes
+	private int[][] notas;		// Sentencias
+}
+a) Declara un atributo array para almacenar los estudiantes del curso
+b) Crea un constructor para que cree e inicialice el array de estudiantes a partir de
+un array de nombres recibido como par�metro. Adem�s debes crear e
+inicializar el array de notas. Debes usar los m�todos privados auxiliares:
+inicializarEstudiantes()
+inicializarNotas() -> Notas ser�n aleatorias entre 1 y 10
+c) Las filas del array bidimensional notas representan las notas de un estudiante
+almacenadas como notas por asignatura. Cada columna representa una
+asignatura.
+d) Escribe un m�todo que devuelva un array con las notas medias por alumno. Se
+usar� la media aritm�tica en este caso.
+public float[] mediasA()
+e) Escribe un m�todo que devuelva la media ponderada por alumno dada un array
+de pesos como par�metro. La suma de los elementos del array de pesos debe
+ser 1.
+public float[] mediasP(float pesos)
+
+Ejer. 5.17.
+
+Crea otra versi�n del ejercicio anterior en el que se generen notas desde -1 a 10.
+Se representa por -1 el caso de un alumno que no est� matriculado en una
+asignatura. Actualiza el m�todo mediasA() para que se calcule correctamente la
+nota media de un alumno no contabilizando las notas de las asignaturas en las
+que no est� matriculado.
+
+Ejer. 5.18.
+
+ En el ejercicio de la clase Curso crea un m�todo llamado notasDesigual() que
+devuelva un array con filas desiguales con las notas de cada alumno por filas
+exceptuando las notas de asignaturas en las que el alumno no est� matriculado.
+�Tiene sentido usar luego ese array desigual? �Se pierde informaci�n no
+recuperable?
+
+Ejer. 5.19.
+
+ Usa los inicializadores de clase y de objetos (nuevas caracter�sticas de Java 7)
+para inicializar el array de estudiantes y el array de notas. Usa e inicializa un array
+de nombres est�tico en vez del par�metro nombres del constructor de la clase
+Curso.
